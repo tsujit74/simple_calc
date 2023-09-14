@@ -73,7 +73,7 @@ export default function Calc() {
             <body>
 
                 {/* <h1 style={{ textAlign: 'center' }}>Simple Calculator..(Sujit)</h1> */}
-                <div className='container' style={myStyle} >S . T
+                <div className='container' id='heading' style={myStyle} >S . T
                     {/* <button className="light" onClick={handleColor}>{btntext}</button> */}
                     <div className="form-check form-switch" style={{float:'right'}}  onClick={handleColor}>
                         <input className="form-check-input mx-6" type="checkbox" id="flexSwitchCheckDefault" />

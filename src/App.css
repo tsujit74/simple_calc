@@ -78,9 +78,30 @@ button:active{
   padding-right: 42px;
 } */
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
   .container{
     background-color: rebeccapurple;
-    width: auto;
+    width:100%;
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 0%;
+    margin: 0px;
+    margin-right: 0%;
+    padding: 10px;
   } 
+
+  input[type="text"]{
+    width: 100%;
+  }
+
+  .botn{
+    width: auto;
+  }
+
+  #heading{
+    float: left;
+    color:white;
+    text-align: left;
+    margin-left: 15px;
+  }
 }
