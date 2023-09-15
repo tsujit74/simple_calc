@@ -49,7 +49,6 @@ input[type="text"]{
   background-color: rgba(153, 148, 148, 0.871);
   color: rgba(245, 245, 245, 0.903);
   text-align: right;
-  position:relative;
   font-size: 2rem;
   font-weight: 650;
   border-radius: 2px;
@@ -112,18 +111,21 @@ button:active{
     margin-right: 0%;
     margin: 0px;
     margin-right: 0%;
-    padding: 10px;
+    padding: 5px;
     background-color: rgba(66, 59, 59, 0.871) ;
+    border-radius: 3px;
   } 
 
   input[type="text"]{
     width: 100%;
-    padding-top: 8%;
-    height: 120px;
+    padding-top: 15%;
+    height: 150px;
     overflow: visible;
     background-color: rgba(0, 0, 0, 0.784);
     border: 1px solid rgb(58, 38, 33);
     border-bottom-color: rgb(78, 71, 69);
+    font-size: 3rem;
+    border-radius: 8px;
   }
 
   .keypad{
@@ -131,18 +133,22 @@ button:active{
     background-color: rgba(22, 14, 14, 0.871);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    height: fit-content;
+    border-bottom: 10px solid rgba(22, 14, 14, 0.871);
   }
 
   .botn{
     width: auto;
-    height: 85px;
+    height: 80px;
+    font-size: 1.8rem;
+    border-radius: 100px;
   }
 
   #heading{
     float: left;
     color:white;
     text-align: left;
+    padding: 10px;
+    padding-bottom: 10px;
     
   }
 
@@ -154,5 +160,10 @@ button:active{
 
   #result:active{
     background-color: rgba(255, 166, 0, 0.758);
+  }
+
+  .bt-hilight{
+    font-weight: 700;
+    font-size: 1.8rem;
   }
 }
