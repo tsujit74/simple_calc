@@ -103,6 +103,7 @@ button:active{
 @media screen and (max-width: 900px){
   body{
     background-color: white;
+    height: 100%;
   }
   .container{
     width:100%;
@@ -112,14 +113,13 @@ button:active{
     margin: 0px;
     margin-right: 0%;
     padding: 10px;
-    height: 595px;
     background-color: rgba(66, 59, 59, 0.871) ;
   } 
 
   input[type="text"]{
     width: 100%;
     padding-top: 8%;
-    height: 100px;
+    height: 120px;
     overflow: visible;
     background-color: rgba(0, 0, 0, 0.784);
     border: 1px solid rgb(58, 38, 33);
@@ -136,7 +136,7 @@ button:active{
 
   .botn{
     width: auto;
-    height: 75px;
+    height: 85px;
   }
 
   #heading{
